@@ -50,13 +50,16 @@ public class MainEstudiante {
 				System.out.println("Ingrese el numero de cedula");
 				cedula= lector.nextLine();
 				Estudiante cedulaEstudiante1 = new Estudiante();
-				cedulaEstudiante1.setGuardadoCedula(cedula);
-				cedulaEstudiante[i]=cedulaEstudiante1;
+				
 				
 			} else if (opcion == 2) {
 	
 				System.out.println("Ingrese el numero de cedula");
 				for(int i=0; i<5;i++) {
+					Estudiante cedulaEstudiante1 = new Estudiante();
+					cedulaEstudiante1.setGuardadoCedula(cedula);
+					cedulaEstudiante[i]=cedulaEstudiante1;
+					
 				
 				String cadena1 =cedula;
 				String cadena2 = lector.nextLine();

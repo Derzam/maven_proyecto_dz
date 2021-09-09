@@ -2,6 +2,7 @@ package ejercicios.string;
 
 public class Estudiante extends MainEstudiante {
 	
+	
 	String GuardadoCedula;
 	String cedula;
 
